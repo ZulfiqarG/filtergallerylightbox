@@ -1,0 +1,127 @@
+[
+    {
+      "id":"1",
+      "commonid":"99",
+      "title": "Routes",
+      "description": "Plan Safe Routes",
+      "image": "/projectImages/bike.png",
+      "image2": "https://picsum.photos/id/1018/250/150/",
+      "image3": "/projectImages/routes3.png",
+      "body": "During my immersive coding bootcamp experience, I collaborated with a team to develop a sophisticated project — a MVP version with a distinct emphasis on route optimisation. Demonstrating a comprehensive understanding of the project's intricacies, I took charge of the entire route management aspect.\nThe purpose of this initiative was to enhance the safety of young cyclists. Leveraged Leaflet.js and TomTom's Routing/Reverse Geolocation APIs.\nIn practical terms, this translates to the creation of a interactive map. Users can intricately plan their routes, considering factors such as real-time traffic updates, designated bike lanes, and terrain gradients. The result is a visually appealing mapping experience. An adventure plotted with utmost consideration for safety and enjoyment.",
+      "technologies": ["Leaflet", "jQuery", "Bootstrap", "HTML", "CSS"],
+      "github": "https://github.com/ZulfiqarG/bike-partner",
+      "deployed": "https://bike-partner.vercel.app/",
+      "bgcolor": "var(--hl2-color)",
+      "genre_ids": "35"
+    },
+    {
+      "id":"2",
+      "commonid":"99",
+      "title": "Weather",
+      "description": "Weather Forecast",
+      "image": "/projectImages/weather.png",
+      "image2": "https://picsum.photos/id/1015/250/150/",
+      "image3": "/projectImages/weather3.png",
+      "technologies": ["JavaScript", "jQuery", "HTML", "CSS"],
+      "body": "This mobile web application leverages the OpenWeatherMap API to deliver real-time weather data for any location. Users can view current conditions including temperature, humidity, and wind speed, as well as a 5-day forecast.\nThe interface automatically adapts between light and dark modes based on the time of day at the given location. Recent searches are stored to enable quick access to frequently checked cities. Geolocation functionality determines the user's position for quick access to local weather.\nBy combining a modern, responsive design with robust weather data pulled from OpenWeatherMap's API, this application aims to provide an intuitive experience for staying up-to-date on the latest weather conditions. The project demonstrates proficiency in integrating third-party APIs, building adaptive interfaces, and crafting performant mobile web applications.",
+      "github": "https://github.com/ZulfiqarG/weatherapp",
+      "deployed": "https://weatherappzs.netlify.app/",
+      "bgcolor": "var(--hl-color)",
+      "genre_ids": "35"
+    },
+    {
+      "id":"3",
+      "commonid":"99",
+      "title": "Movie",
+      "description": "Book Your Show",
+      "image": "/projectImages/movie.png",
+      "image2": "https://picsum.photos/id/1019/250/150/",
+      "image3": "/projectImages/team3.png",
+      "technologies": ["ReactJs", "NodeJs", "ExpressJs", "Mongodb-atlas"],
+      "body": "Introducing 'Book It Now', a cutting-edge movie booking responsive app that revolutionizes your cinema experience. Powered by the MERN stack, this application seamlessly combines React.js for the frontend, Node.js for the backend, Express.js as the framework for Node.js, and MongoDB Cloud Atlas as the robust database solution, all orchestrated by the Mongoose ODM library for MongoDB.\nWith 'Book It Now,' you wield the power to choose your preferred movie, select the ideal time slot, and secure your desired seats, all from the convenience of your mobile device. Your booking details are instantly accessible, providing you with a hassle-free way to keep track of your cinematic adventures.\nBehind the scenes, your movie bookings are securely stored in a database, ensuring that your entertainment choices are not only easily retrievable but also seamlessly integrated into the app's user interface. The dynamic API link, https://zulfiqarbookshow.cyclic.app/api/booking, serves as the gateway to a seamless booking experience.",
+      "github": "https://github.com/ZulfiqarG/book-It-Now",
+      "deployed": "https://book-it-now-zeta.vercel.app/",
+      "bgcolor": "#6c4bf4",
+      "genre_ids": "35"
+    },
+    {
+      "id":"4",
+      "commonid":"99",
+      "title": "Quiz",
+      "description": "Test your knowledge",
+      "image": "/projectImages/quiz.png", 
+      "image2": "https://picsum.photos/id/1018/250/150/",
+      "image3": "/projectImages/quiz3.png",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "body": "This application tests JavaScript knowledge through a timed, question-based quiz. Users are presented with 5 random questions and have 50 seconds to complete the quiz. The remaining time at completion determines the final score, rewarding both accuracy and speed.\nTo add challenge, the timer is reduced by 10 seconds for each incorrect answer. This creates urgency to answer carefully within the time limit. Questions are drawn randomly from a pool to ensure variety upon each attempt.\nBuilt using JavaScript, this project provides hands-on experience creating a responsive quiz application. Key learning outcomes include: \n➤ Generating random questions from a pool of options\n➤ Implementing a countdown timer with penalty deductions\n➤ Calculating scores based on time remaining\n➤ Providing interactive quiz feedback to users\nOverall, this application allows users to test their JavaScript skills through an engaging, time-pressured quiz interface. Both code knowledge and quick thinking are required to achieve a top score.",
+      "github": "https://github.com/ZulfiqarG/quizgame",
+      "deployed": "https://quizplateform.vercel.app/",
+      "bgcolor": "#f85781",
+      "genre_ids": "28"
+    },
+  
+    {
+      "id":"5",
+      "commonid":"99",
+      "title": "News",
+      "description": "F1 Hub",
+      "image": "/projectImages/P1.png",
+      "image2": "https://picsum.photos/id/1015/250/150/",
+      "image3": "/projectImages/p13.png",
+      "body": "P1 is a web application designed to be a hub for Formula 1 fans. It brings together news, standings, and an interactive card game in one platform.\nThe app features a responsive layout with animated, polished visuals to provide an immersive user experience. The news section stays up-to-date on the latest happenings in the F1 world.\nThe centerpiece is a card game that puts users' F1 knowledge to the test in a competitive, engaging format. Game mechanics reward expertise in drivers, teams, and racing trivia.\nBuilt using modern web development tools, this project shows skills in:\n➤ Creating visually appealing, animated interfaces\n➤ Integrating real-time data feeds and news\n➤ Developing interactive game mechanics with competitive elements\n➤ Providing an all-in-one web app for a niche audience\nOverall, P1 aims to establish an exciting online space for Formula 1 fans to follow the sport, connect with a community, and test their expert knowledge.",
+      "technologies": ["React", "Framer Motion", "Bootstrap", "HTML", "CSS"],
+      "github": "https://github.com/ZulfiqarG/sportcardgame",
+      "deployed": "https://sportcardgame.vercel.app/",
+      "bgcolor": "#e47911",
+      "genre_ids": "28"
+    },
+  
+    {
+      "id":"6",
+      "commonid":"99",
+      "title": "Planner",
+      "description": "Conquer your day",
+      "image": "/projectImages/planner.png",
+      "image2": "https://picsum.photos/id/1019/250/150/",
+      "image3": "/projectImages/planner3.png",
+      "technologies": ["JavaScript", "Moment", "Bootstrap", "HTML", "CSS"],
+      "body": "The Daily Planner App aims to help users maximize productivity and organization. Its intuitive interface enables easy scheduling of appointments and meetings, ensuring nothing gets missed during busy work days.\nThe app goes beyond basic calendar features to set the right mood for different times of day. It automatically transitions between color schemes from morning to evening. To-do items persist in the app, allowing users to revisit pending tasks when needed.\nBuilt with modern web development tools, this project demonstrates skills in crafting responsive web applications with dynamic interfaces. Key learning outcomes include implementing time-based design changes, enabling persistent data storage, and creating an intuitive user experience for scheduling and task management.\nBy combining useful calendar functionality with ambient visual changes and persistent to-dos, the Daily Planner App strives to keep users on track, in the right headspace, and focused on conquering each day more effectively. The end result is a tool to help make the most of every hour.",
+      "github": "https://github.com/ZulfiqarG/dailyschedule",
+      "deployed": "https://dailyplannerzs.netlify.app/",
+      "bgcolor": "#3e67ff",
+      "genre_ids": "28"
+    },
+  
+    {
+      "id":"7",
+      "commonid":"99",
+      "title": "Flashcard",
+      "description": "Flash card creator",
+      "image": "/projectImages/flashcard.png",
+      "image2": "https://picsum.photos/id/1018/250/150/",
+      "image3": "/projectImages/planner3.png",
+      "technologies": ["reactJs", "redux", "tailwindcss", "formik", "react-icons"],
+      "body": "Explore the innovative world of flashcards with our ReactJS-powered project that introduces a seamless and user-friendly flashcard experience. The project encompasses three key pages: the 'Create Flashcard' page, 'My Flashcard' page, and the 'Flashcard Details' page with a share feature.\nDive into the creation process with our intuitive 'Create Flashcard' page. Utilizing Formik, we've incorporated user-friendly input boxes, ensuring a smooth and error-free flashcard creation experience. The Yeah validation adds an extra layer of reliability to guarantee the accuracy of your input.\nExperience a personalized touch with the 'My Flashcard' page. We've crafted a dedicated UI component, seamlessly mapping the user interface and populating it with your flashcard data. Your recently generated flashcards are elegantly displayed for easy access.",
+      "github": "https://github.com/ZulfiqarG/flashcard",
+      "deployed": "zulfiqarg.github.io/flashcard/",
+      "bgcolor": "#054576",
+      "genre_ids": "28"
+    },
+  
+    {
+      "id":"8",
+      "commonid":"99",
+      "title": "Resume",
+      "description": "Resume Builder App",
+      "image": "https://picsum.photos/id/1018/1000/600/",
+      "image2": "https://picsum.photos/id/1015/250/150/",
+      "image3": "/projectImages/planner3.png",
+      "technologies": ["reactJs", "redux", "vanilla-css", "jspdf-library", "material-ui"],
+      "body": "Welcome to Resume|Builder, your go-to web application for crafting professional resumes effortlessly. With an intuitive interface and a variety of templates to choose from, Resume|Builder simplifies the resume creation process, offering a seamless experience for users.\nDive into the world of possibilities with our extensive collection of resume templates. The Home Page welcomes you to explore various designs, enabling you to choose the one that best suits your style and professional needs.\nYour creations, your way. The 'Resumes' tab stores all your saved resumes, providing easy access for future edits or downloads. Here, you can manage your resume portfolio effortlessly, making modifications or deleting entries as needed.Personalize your resume with a profile picture. Our user-friendly interface allows you to effortlessly integrate a professional image into your resume, adding a personal touch.Your career journey is dynamic, and so should be your resumes. Modify saved resumes or delete outdated ones with ease, offering you the flexibility to adapt to new opportunities.",
+      "github": "https://github.com/ZulfiqarG/resumetemplate",
+      "deployed": "https://resumebuilder-z.netlify.app/",
+      "bgcolor": "#60760E",
+      "genre_ids": "20"
+    }
+  ]
+  

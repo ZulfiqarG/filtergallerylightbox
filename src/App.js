@@ -1,24 +1,50 @@
-import logo from './logo.svg';
+
+import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Movie from "./Movie";
+import Filter from "./Filter";
+import LightboxPage from "./LightboxPage"; // Create LightboxPage component
+import { motion, AnimatePresence } from "framer-motion";
+import projects from "./_data/projects.json";
 import './App.css';
 
+
 function App() {
+  const [popular, setPopular] = useState([]); //all movies
+  const [filtered, setFiltered] = useState([]); //Filter
+  const [activeGenre, setActiveGenre] = useState(0); // button active
+
+  useEffect(() => {
+    setPopular(projects);
+    setFiltered(projects);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/lightbox/:category" element={<LightboxPage />} />
+        <Route
+          path="/"
+          element={
+            <div className="App">
+              <Filter
+                popular={popular}
+                setFiltered={setFiltered}
+                activeGenre={activeGenre}
+                setActiveGenre={setActiveGenre}
+              />
+              <motion.div layout className="popular-movies">
+                <AnimatePresence>
+                  {filtered.map((project) => (
+                    <Movie key={project.id} project={project} activeGenre={activeGenre}/>
+                  ))}
+                </AnimatePresence>
+              </motion.div>
+            </div>
+          }
+        />
+      </Routes>
+    </Router>
   );
 }
 
